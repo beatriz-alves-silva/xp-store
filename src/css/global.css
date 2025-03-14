@@ -1,0 +1,467 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul-profundo: #023047;
+    --azul-turquesa: #219EBC;
+    --azul-pastel: #8ECAE6;
+    --amarelo-dourado: #FFB703;
+    --laranja-quente: #FB8500;
+    --cinza-claro: #D3D3D3;
+}
+
+.ubuntu-regular {
+    font-family: "Ubuntu", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Ubuntu", serif;
+    min-width: 320px; /* Define uma largura mínima (exemplo para telas pequenas como celulares antigos) */
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: var(--azul-profundo);
+    color: var(--cinza-claro);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo,
+.pesquisa,
+.menu-btns {
+    flex: 1; /* Faz com que cada divisão ocupe o mesmo espaço */
+}
+
+.logo {
+    width: 33%;
+    display: flex;
+}
+
+.logo img{
+    width: 25%;
+}
+
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.search-box {
+    position: relative;
+}
+
+.pesquisa form input {
+    width: 100%;
+    height: 40px;
+    padding: 0 40px 0 10px; /* espaço pra não tampar o ícone */
+    background-color: transparent;
+    color: var(--cinza-claro);
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid var(--azul-turquesa);
+    box-sizing: border-box;
+}
+
+.pesquisa form input[type="text"]:hover {
+    border-bottom: 2px solid var(--azul-pastel);
+}
+
+.pesquisa form input[type="text"]::placeholder {
+    color: #ffffff77;
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 16px;
+}
+
+.pesquisa button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.pesquisa button i {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.pesquisa button:hover i {
+    color: var(--azul-pastel);
+}
+
+.search-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-btns {
+    grid-area: right;
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.menu-btns a {
+    text-decoration: none;
+    color: var(--cinza-claro);
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+nav ul,
+header ul {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+nav li,
+header li {
+    list-style: none;
+}
+
+header i:hover,
+header a:hover {
+    color: var(--amarelo-dourado);
+}
+
+header i {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--azul-profundo);
+    color: var(--cinza-claro);
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.185);
+}
+
+nav ul {
+    display: flex;
+    gap: 20vh;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 16px;
+    transition: transform 0.4s ease;
+}
+
+nav a:hover{
+    color: var(--amarelo-dourado);
+    border-bottom: 1px solid var(--amarelo-dourado);
+    font-size: 16.5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--azul-profundo);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.171);
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.logo-e-redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.171);
+}
+
+.logo-footer{
+    display: flex;
+}
+
+.logo-footer img{
+    width: 80px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    padding: 15px;
+    gap: 25px;
+}
+
+.redes a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: var(--cinza-claro);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+}
+
+.redes a:hover {
+    color: var(--amarelo-dourado);
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+}
+
+h4{
+    font-family: "Bebas Neue", 'Courier New', sans-serif;
+    font-size: 22px;
+    color: var(--cinza-claro);
+}
+
+.institucional ul li,
+.infos span{
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 18px;
+    color: var(--cinza-claro);
+}
+
+.atendimento,
+.sobre,
+.institucional{
+    display: flex;
+    flex-direction: column;
+}
+
+.institucional ul{
+    flex-direction: column;
+}
+
+.institucional a{
+    color: inherit;
+    text-decoration: none;
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 18x;
+}
+
+.institucional li{
+    list-style: none;
+}
+
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: var(--azul-turquesa);
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 16px;
+    color: var(--azul-profundo);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.185);
+}
+
+@media (max-width: 1024px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    header .logo img{
+    width: 25%;
+    }
+
+    header .pesquisa form input {
+        width: 100%;
+    }
+
+    header .menu-btns{
+        align-items: flex-end;
+    }
+
+    header ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: var(--azul-profundo);
+        color: var(--amarelo-dourado);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.171);
+        flex-direction: column;
+        width: 150px;
+        padding: 10px;
+    }
+
+    ul.show {
+        display: flex;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    footer .infos{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    header .logo img{
+        width: 30%;
+    }
+
+    header .menu-btns{
+        align-items: flex-end;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .banner button{
+        top: 35%;
+    }
+}
+
+@media (max-width: 480px) {
+    header{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header .logo img{
+        width: 35%;
+        }
+
+    header .pesquisa .search-btn{
+        display: block;
+    }
+
+    header .pesquisa form input{
+        display: none;
+    }
+
+    header .menu-btns{
+        align-items: flex-end;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header ul {
+        display: none;
+        position: absolute;
+        top: 85px;
+        right: 0;
+        background: var(--azul-profundo);
+        color: var(--amarelo-dourado);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.171);
+        flex-direction: column;
+        width: 150px;
+        padding: 10px;
+    }
+
+    ul.show {
+        display: flex;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    footer .conteiner .logo-e-redes{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .conteiner .logo-e-redes .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    h4{
+        font-size: 20px;
+    }
+    
+    footer .infos span,
+    footer .infos .institucional ul li{
+        font-size: 16px;
+    }
+
+    footer .copy{
+        font-size: 14px;
+    }
+}

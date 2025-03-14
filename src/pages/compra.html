@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/index.js" defer></script>
+    <link rel="icon" href="/public/imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/src/css/global.css">
+    <link rel="stylesheet" href="/src/css/compra.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>XP Store | Carrinho</title>
+</head>
+<body>
+    <!-- cabeçalho contendo logo, area para digitar e buscar um item, botões para atendimento, favoritos, conta e carrinho -->
+    <header>
+        <div class="logo">
+            <a href="/index.html">
+                <img src="/public/imgs/logo.png" alt="logotipo xp store">
+            </a>
+        </div>
+    
+        <div class="pesquisa">
+            <form action="#" method="get">
+                <div class="search-box">
+                    <input type="text" placeholder="Buscar item..." id="search-input">
+                    <button type="submit">
+                        <i class='bx bx-search'></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    
+        <div class="menu-btns">
+            <button class="menu-btn"><i class='bx bx-menu'></i></button>
+            <ul class="menu">
+                <li class="atendimento">
+                    <i class='bx bx-message-rounded-dots'>
+                        <a href="#infos">Atendimento</a>
+                    </i>
+                </li>
+                <li class="conta">
+                    <i class='bx bx-user'>
+                        <a href="#">Conta</a> 
+                    </i>
+                </li>
+                <li class="carrinho">
+                    <i class='bx bx-cart'>
+                        <a href="/src/pages/carrinho.html">Carrinho</a> 
+                    </i>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- links das páginas -->
+    <nav>
+        <ul>
+            <li><a href="/src/pages/playstation.html">PlayStation</a></li>
+            <li><a href="/src/pages/xbox.html">XBOX</a></li>
+            <li><a href="/src/pages/nintendo.html">Nintendo</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="titulo-pag">
+        <span class="txt-pagina">Compre Agora</span>
+    </div>
+
+    <div class="produto-infos" id="produto-infos">
+
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="logo-e-redes">
+                <div class="logo-footer">
+                    <img src="/public/imgs/logo.png" alt="logotipo xp store">
+                </div>
+                <div class="redes">
+                    <a href="#">
+                        <i class='bx bxl-instagram' ></i>
+                        Instagram
+                    </a>
+                    <a href="#">
+                        <i class='bx bxl-tiktok' ></i>
+                        TikTok
+                    </a>
+                    <a href="#">
+                        <i class='bx bxl-youtube' ></i>
+                        YouTube
+                    </a>
+                    <a href="#">
+                        <i class='bx bxl-twitter' ></i>
+                        Twitter
+                    </a>
+                </div>
+            </div>
+
+            <div class="infos">
+                <div class="atendimento">
+                    <h4>Atendimento</h4>
+                    <span>(00) 0000-0000</span>
+                    <span>xpstor.contato@email.com</span>
+                </div>
+
+                <div class="sobre">
+                    <h4>XP Store</h4>
+                    <span>CNPJ 00.0000.000/0000-00</span>
+                    <span>Rua 2, 345 - Ponta Grossa/PR<br>CEP 00000-000</span>
+                </div>
+
+                <div class="institucional">
+                    <h4>Institucional</h4>
+                    <ul>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Política de Venda, Troca e Devolução</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; 2025 Beatriz Alves | beatriz.alves.silva.cc@gmail.com</p>
+        </div>
+    </footer>
+    <script src="/src/js/produto-ps.js"></script>
+    <script src="/src/js/compra.js"></script>
+</body>
+</html>

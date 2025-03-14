@@ -1,0 +1,76 @@
+{
+    "produtos":[
+        {
+            "id": 1,
+            "nome": "PlayStation 5, Branco",
+            "marca": "playstation",
+            "preco": 3899.90,
+            "descricao": "Jogue como nunca antes com o console PS5 Slim Edição Digital da Sony na cor branca. Lançado em 2024, ele possui 1TB de armazenamento em HD, acompanha 1 controle sem fio DualSense, Voucher com códigos dos jogos Returnal e Ratchet & Clank: Em Uma Outra Dimensão, ASTRO’s PLAYROOM (Jogo pré-instalado). Com um console PS5, os jogadores contam com uma poderosa tecnologia de jogos em um design elegante e compacto. Maravilhe-se com os gráficos incríveis e experimente os recursos do PS5. Descubra uma experiência de jogos mais profunda compatível com resposta tátil, gatilhos adaptáveis e tecnologia de áudio 3D.2 Com o PS5 Slim Edição Digital, os jogadores contam com uma poderosa tecnologia de jogos em um design elegante e compacto. ATENÇÃO: O produto é EDIÇÃO DIGITAL, portanto NÃO possui leitor para mídia física.",
+            "imagem": "/public/imgs/ps5.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Xbox Series X, Preto",
+            "marca": "xbox",
+            "preco": 4099.00,
+            "descricao": "Com seu console Xbox Series você terá entretenimento garantido todos os dias. Sua tecnologia foi criada para colocar novos desafios para jogadores novatos e especialistas. Desenho inovador. Além disso, seu controle combina um estilo elegante e aderência em relevo para maior conforto. Adaptado às suas necessidades. Salve as suas aplicações, fotos, vídeos e muito mais no disco rígido, que tem uma capacidade de 1 TB.Por ter um processador 8 núcleos e gráficos, fornecem uma experiência dinâmica, respostas ágeis e transições suaves de imagens de alta definição. Por outro lado, tem uma porta USB e saída HDMI, que permitem conectar acessórios e carregar a bateria do controle enquanto joga",
+            "imagem": "/public/imgs/xbox.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Nintendo Switch Oled, Branco",
+            "marca": "nintendo",
+            "preco": 2299.90,
+            "descricao": "Com seu console Switch, você terá entretenimento garantido todos os dias. Sua tecnologia foi criada para oferecer novos desafios tanto para iniciantes quanto para jogadores experientes. O nnSwitch se tornou um dos consoles mais versáteis do mercado graças ao seu uso portátil e desktop. A Nintendo desenvolveu este modelo com o objetivo de ter todas as comodidades da tecnologia de elite em um dispositivo portátil com o qual você pode jogar e desfrutar de vários conteúdos online. Você poderá tocar música, assistir seus filmes e séries favoritos por meio de aplicativos para download.",
+            "imagem":"/public/imgs/nintendo.jpg"
+        },
+        {
+            "id": 4,
+            "nome": "Controle DualSense PS5, Branco",
+            "marca": "playstation",
+            "preco": 389.90,
+            "descricao": "Eleve seus sentidos. Descubra uma experiência de jogo mais profunda e imersiva, que dá vida à ação nas palmas das suas mãos. O controle sem fio DualSense oferece resposta tátil, efeitos de gatilho adaptáveis e um microfone embutido, tudo em um design icônico e confortável. Dê vida ao mundo dos jogos. Sinta suas ações no jogo e o ambiente simulado por meio da resposta tátil. Experimente forças e tensões variadas na ponta dos dedos com os gatilhos adaptáveis. Encontre sua voz, compartilhe sua paixão. Converse com seus amigos online através do microfone integrado. Conecte um headset à entrada de 3,5mm. Ligue e desligue facilmente a captação de voz a qualquer momento através do botão “mute”. Grave e transmita seus momentos mais épicos nos jogos com o botão “Criar”. Um ícone dos games nas suas mãos Desfrute do confortável e avançado design com um layout icônico e hastes aprimoradas. Carregue e jogue com uma bateria integrada e porta USB Type-C. Ouça efeitos sonoros fielmente reproduzidos em jogos compatíveis através do alto-falante integrado.",
+            "imagem":"/public/imgs/controle-ps5.png"
+        },
+        {
+            "id": 5,
+            "nome": "Controle Xbox Wireless, Sem Fio, Preto",
+            "marca": "xbox",
+            "preco": 459.90,
+            "descricao": "Este controle combina funções revolucionárias, preservando precisão, conforto e exatidão em cada movimento. Graças à sua ergonomia especialmente projetada para a posição da sua mão, você pode passar horas jogando com total conforto. Permite que você jogue sem a necessidade de cabos no meio. Ele é projetado não só para controlar melhor seus videogames, mas também para aumentar seu realismo e experiência. Possui uma conexão Bluetooth de alta tecnologia para uso em qualquer computador ou dispositivo; você não precisará mais de aplicativos de terceiros ou cabo USB. Além disso, possui uma grande capacidade anti-interferência, fácil manuseio e sinal de conexão estável.",
+            "imagem":"/public/imgs/controle-xbox.jpg"
+        },
+        {
+            "id": 6,
+            "nome": "PlayStation 4 Slim, Preto",
+            "marca": "playstation",
+            "preco": 2619.90,
+            "descricao": "",
+            "imagem":"/public/imgs/ps4-slim.png"
+        },
+        {
+            "id": 7,
+            "nome": "Minecraft Xbox",
+            "marca": "xbox",
+            "preco": 99.90,
+            "descricao": "Com seu console 4 você terá entretenimento garantido todos os dias. Sua tecnologia foi criada para colocar novos desafios para jogadores novatos e especialistas. Graças às suas pequenas dimensões, o seu consumo de energia é baixo, o que o torna um produto económico e acessível. Não só isso, o controle DualShock combina recursos revolucionários e sem precedentes, preservando a precisão, conforto e exatidão em cada movimento. Adaptado às suas necessidades. Salve as suas aplicações, fotos, vídeos e muito mais no disco rígido, que tem uma capacidade de 1 TB. Por ter um processador de 8 núcleos e um gráfico, fornecem uma experiência dinâmica, respostas ágeis e transições suaves de imagens de alta definição. Por outro lado, tem uma porta USB e saída HDMI, que permitem conectar acessórios e carregar a bateria do controle enquanto você joga. Você poderá reproduzir música, assistir seus filmes e séries favoritos através dos aplicativos para download.",
+            "imagem":"/public/imgs/xbox-jogo.webp"
+        },
+        {
+            "id": 8,
+            "nome": "Controle Switch Joy, Rosa e Verde",
+            "marca": "nintendo",
+            "preco": 463.90,
+            "descricao": "Este controle combina funções revolucionárias, preservando precisão, conforto e exatidão em cada movimento. Graças à sua ergonomia especialmente projetada para a posição da sua mão, você pode passar horas jogando com total conforto. Maior conforto e realismo. Permite que você jogue sem a necessidade de cabos no meio. Ele é projetado não só para controlar melhor seus videogames, mas também para aumentar seu realismo e experiência. Ativa o Bluetooth. Possui uma conexão Bluetooth de alta tecnologia para uso em qualquer computador ou dispositivo; você não precisará mais de aplicativos de terceiros ou cabo USB. Além disso, possui uma grande capacidade anti-interferência, fácil manuseio e sinal de conexão estável.",
+            "imagem":"/public/imgs/controle-nt.webp"
+        },
+        {
+            "id": 9,
+            "nome": "Jogo MarioKart 8 Deluxe, Switch",
+            "marca": "nintendo",
+            "preco": 325.90,
+            "descricao": "Com este jogo Mario, você desfrutará de horas de diversão e novos desafios que lhe permitirão melhorar como jogador. Interaja com outros jogadores. Você poderá desfrutar de uma experiência incomparável, pois permite que você jogue com seus amigos e compartilhar momentos inesquecíveis. Diversão sem fronteiras. Você será capaz de compartilhar cada jogo com pessoas de todo o mundo, pois é possível conectar-se de maneira online.",
+            "imagem":"/public/imgs/jogo-mario.webp"
+        }
+    ]
+}

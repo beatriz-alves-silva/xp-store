@@ -1,0 +1,182 @@
+.banner {
+    width: 100%;
+}
+
+.banner ul {
+    display: flex;
+    overflow: hidden;
+}
+
+.banner li {
+    display: none;
+    width: 100%;
+}
+
+.banner li.active {
+    display: block;
+}
+
+.banner button {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--cinza-claro);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.produtos-destaque {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 80px;
+    gap: 5%
+}
+
+.produtos-destaque .top{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.produtos-destaque .top .txt-destaque{
+    font-family: "Bebas Neue", 'Courier New', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.produtos-destaque .bottom{
+    width: 100%;
+    gap: 20px; /* Aumentando o gap para um melhor espaçamento */
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between; /* Ajuda a distribuir melhor os itens */
+}
+
+.produtos-destaque .bottom .item{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #00000015;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    gap: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.produtos-destaque .bottom .item:hover{
+    border: 2px solid #0000002c;
+    transform: scale(1.01);
+}
+
+.produtos-destaque .bottom .item img{
+    width: 200px;
+    border-radius: 5px;
+    
+}
+
+.produtos-destaque .bottom .item .descricao{
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 100%;
+}
+
+.produtos-destaque .bottom .item .valor{
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 28px;
+    color: var(--laranja-quente);
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .banner button {
+        top: 30%;
+    }
+
+    .produtos-destaque{
+        align-items: center;
+        padding: 15px;
+        margin: 0px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .banner button {
+        top: 30%;
+    }
+
+    .produtos-destaque .bottom .item{
+        width: 250px;
+        height: 300px;
+    }
+
+    .produtos-destaque .bottom .item img{
+        width: 150px;
+    }
+
+    .produtos-destaque .bottom .item .descricao{
+        font-size: 20px;
+    }
+    
+    .produtos-destaque .bottom .item .valor{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner button {
+        top: 22%;
+    }
+
+    .produtos-destaque .top .txt-destaque{
+        font-size: 36px;
+    }
+
+    .produtos-destaque .bottom .item{
+        width: 200px;
+        height: 250px;
+    }
+
+    .produtos-destaque .bottom .item img{
+        width: 100px;
+    }
+
+    .produtos-destaque .bottom .item .descricao{
+        font-size: 18px;
+    }
+    
+    .produtos-destaque .bottom .item .valor{
+        font-size: 25px;
+    }
+}

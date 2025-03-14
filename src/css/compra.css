@@ -1,0 +1,76 @@
+.produto-infos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-produto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    gap: 30px;
+    border-radius: 10px;
+    border: 1px solid #00000015;
+    padding: 10px;
+}
+
+.container-produto img {
+    width: 300px;
+}
+
+.detalhes-compra {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.nome-produto{
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 24px;
+}
+
+.valor{
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--laranja-quente);
+}
+
+.detalhes-compra button {
+    width: 150px;
+    height: 50px;
+    background-color: var(--amarelo-dourado);
+    color: var(--azul-profundo);
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.detalhes-compra button:hover {
+    background-color: var(--laranja-quente);
+}
+
+.container-descricao {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.container-descricao .titulo-descricao {
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-descricao span {
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 18px;
+}
