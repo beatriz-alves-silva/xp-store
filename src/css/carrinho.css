@@ -1,3 +1,9 @@
+.titulo-pag {
+    font-family: "Bebas Neue", serif;
+    font-size: 40px;
+    padding: 20px
+}
+
 .secao-carrinho {
     display: flex;
     flex-direction: column;
@@ -42,4 +48,21 @@
 
 .botao {
     display: flex;
+}
+
+.botao button {
+    width: 80px;
+    height: 30px;
+    background-color: var(--amarelo-dourado);
+    color: var(--azul-profundo);
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao button:hover {
+    background-color: var(--laranja-quente);
+
 }

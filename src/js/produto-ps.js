@@ -36,9 +36,4 @@ async function carregarProdutos() {
     }
 }
 
-function carregarTelaCompra(){ 
-    const conteiner = document.getElementById('produto-infos');
-    
-}
-
 carregarProdutos();

@@ -1,0 +1,41 @@
+.secao-pesquisa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    gap: 20px;
+}
+
+.detalhes {
+    max-width: 50%;
+    gap: 10px;
+}
+
+.produto img {
+    width: 200px;
+}
+
+.detalhes button {
+    width: 80px;
+    height: 30px;
+    background-color: var(--amarelo-dourado);
+    color: var(--azul-profundo);
+    font-family: "Ubuntu", 'Courier New', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -18,16 +18,16 @@
     <!-- cabeçalho contendo logo, area para digitar e buscar um item, botões para atendimento, favoritos, conta e carrinho -->
     <header>
         <div class="logo">
-            <a href="/index.html">
+            <a href="index.html">
                 <img src="/public/imgs/logo.png" alt="logotipo xp store">
             </a>
         </div>
     
         <div class="pesquisa">
-            <form action="#" method="get">
+            <form action="#" method="get" id="form-pesquisa">
                 <div class="search-box">
                     <input type="text" placeholder="Buscar item..." id="search-input">
-                    <button type="submit">
+                    <button type="submit" id="botao-buscar">
                         <i class='bx bx-search'></i>
                     </button>
                 </div>
@@ -129,5 +129,6 @@
     </footer>
     <script src="/src/js/produto-ps.js"></script>
     <script src="/src/js/compra.js"></script>
+    <script src="/src/js/pesquisa.js"></script>
 </body>
 </html>

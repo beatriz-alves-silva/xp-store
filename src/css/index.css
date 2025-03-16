@@ -50,8 +50,6 @@
 .produtos-destaque .top{
     display: flex;
     justify-content: center;
-    padding: 10px;
-
 }
 
 .produtos-destaque .top .txt-destaque{

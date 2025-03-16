@@ -3,30 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/index.js" defer></script>
     <link rel="icon" href="/public/imgs/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/src/css/global.css">
-    <link rel="stylesheet" href="/src/css/index.css">
+    <link rel="stylesheet" href="/src/css/carrinho.css">
+    <link rel="stylesheet" href="/src/css/resultado-pesquisa.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <title>XP Store</title>
+    <title>XP Store | Pesquisa</title>
 </head>
 <body>
+    <!-- cabeçalho contendo logo, area para digitar e buscar um item, botões para atendimento, favoritos, conta e carrinho -->
     <header>
         <div class="logo">
-            <a href="#">
+            <a href="index.html">
                 <img src="/public/imgs/logo.png" alt="logotipo xp store">
             </a>
         </div>
     
         <div class="pesquisa">
-            <form action="#" method="get">
+            <form action="#" method="get" id="form-pesquisa">
                 <div class="search-box">
                     <input type="text" placeholder="Buscar item..." id="search-input">
-                    <button type="submit">
+                    <button type="submit" id="botao-buscar">
                         <i class='bx bx-search'></i>
                     </button>
                 </div>
@@ -55,59 +56,17 @@
         </div>
     </header>
 
-        <!-- links das páginas -->
-        <nav>
-            <ul>
-                <li><a href="/src/pages/playstation.html">PlayStation</a></li>
-                <li><a href="/src/pages/xbox.html">XBOX</a></li>
-                <li><a href="/src/pages/nintendo.html">Nintendo</a></li>
-            </ul>
-        </nav>
-
-    <!-- banners com promoções etc -->
-    <div class="banner">
+    <!-- links das páginas -->
+    <nav>
         <ul>
-            <li>
-                <img src="/public/imgs/banner-1.png" alt="" width="100%" height="100%">
-            </li>
-            <li>
-                <img src="/public/imgs/banner-2.png" alt="" width="100%" height="100%">
-            </li>
-            <li>
-                <img src="/public/imgs/banner-3.png" alt="" width="100%" height="100%">
-            </li>
-            <li>
-                <img src="/public/imgs/banner-4.png" alt="" width="100%" height="100%">
-            </li>
+            <li><a href="/src/pages/playstation.html">PlayStation</a></li>
+            <li><a href="/src/pages/xbox.html">XBOX</a></li>
+            <li><a href="/src/pages/nintendo.html">Nintendo</a></li>
         </ul>
-        <button class="prev">◀</button>
-        <button class="next">▶</button>
-    </div>
+    </nav>
 
-    <!-- itens em destaque -->
-    <div class="produtos-destaque">
-        <div class="top">
-            <span class="txt-destaque">PRODUTOS EM DESTAQUE</span>
-        </div>
-        <div class="bottom">
-            <div class="item">
-                <img src="/public/imgs/ps5.jpg" alt="PlayStation 5">
-                <span class="descricao">Playstation 5, Branco</span>
-                <span class="valor">R$ 3899,90</span>
-            </div>
-    
-            <div class="item">
-                <img src="/public/imgs/xbox.jpg" alt="Xbox Series X">
-                <span class="descricao">Console Xbox Series X, Preto</span>
-                <span class="valor">R$ 4099,00</span>
-            </div>
-    
-            <div class="item">
-                <img src="/public/imgs/nintendo.jpg" alt="Nintendo Swithc">
-                <span class="descricao">Nintendo Switch Oled, Branco</span>
-                <span class="valor">R$ 2299,90</span>
-            </div>
-        </div>
+    <div class="secao-pesquisa" id="secao-pesquisa">
+
     </div>
 
     <footer>
@@ -163,6 +122,9 @@
             <p>&copy; 2025 Beatriz Alves | beatriz.alves.silva.cc@gmail.com</p>
         </div>
     </footer>
-    <script src="/src/js/script.js"></script>
+    <script src="/src/js/produto-ps.js"></script>
+    <script src="/src/js/carrinho.js"></script>
+    <script src="/src/js/pesquisa.js"></script>
+    <script src="/src/js/resultado-pesquisa.js"></script>
 </body>
 </html>
